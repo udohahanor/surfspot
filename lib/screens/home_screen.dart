@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
         body: ResponsiveWidget(
           mobile: Container(
             width: double.infinity,
-            height: 500.0,
+            height: 400.0,
             decoration: const BoxDecoration(
               color: Colors.grey,
               image: DecorationImage(
@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
           ),
           desktop: Container(
             width: double.infinity,
-            height: 500.0,
+            height: 700.0,
             decoration: const BoxDecoration(
               color: Colors.grey,
               image: DecorationImage(
@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
             child: Column(
               children: const [
                 NavBar(),
-                SizedBox(height: 40.0),
+                SizedBox(height: 80.0),
                 SurfBar(),
               ],
             ),
