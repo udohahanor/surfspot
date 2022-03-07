@@ -19,7 +19,7 @@ class PopularCarousel extends StatelessWidget {
                 fontFamily: 'Montserrat',
                 fontWeight: FontWeight.w600,
                 color: Colors.black,
-                fontSize: 10.0,
+                fontSize: 13.0,
                 letterSpacing: 1.2,
               ),
             ),
